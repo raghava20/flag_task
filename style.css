@@ -1,0 +1,26 @@
+section {
+    background: grey;
+    padding: 80px 0px;
+  }
+  img {
+    width: 100%;
+    height:100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .box > :nth-child(2) {
+    border: 1px solid whitesmoke;
+    margin: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+ 
+  .context {
+    text-align: left;
+    padding: 20px;
+    padding-top: 30px;
+    background: white;
+  }
+  .context h3 + p {
+    margin-top: 25px;
+  }
